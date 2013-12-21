@@ -1,0 +1,53 @@
+/*Alexander Sereno*/
+
+@font-face 
+{
+	font-family: Bariol_Bold;
+	src: url(/fonts/Bariol_Bold.otf) format("opentype");
+}
+
+@font-face 
+{
+	font-family: Bariol_Light;
+	src: url(/fonts/Bariol_Light.otf) format("opentype");
+}
+
+@font-face 
+{
+	font-family: Bariol_Thin;
+	src: url(/fonts/Bariol_Thin.otf) format("opentype");
+}
+
+@font-face 
+{
+	font-family: Bariol_Bold_Italic;
+	src: url(/fonts/Bariol_Bold_Italic.otf) format("opentype");
+}
+
+@font-face 
+{
+	font-family: Bariol_Light_Italic;
+	src: url(/fonts/Bariol_Light_Italic.otf) format("opentype");
+}
+
+@font-face 
+{
+	font-family: Bariol_Thin_Italic;
+	src: url(/fonts/Bariol_Thin_Italic.otf) format("opentype");
+}
+
+p {
+	
+	font-family: Bariol_Light;
+}
+
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: 30px;
+	width: 928px;
+	background-color: #252525;
+	font-family: Bariol_Bold;
+}
