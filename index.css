@@ -3,51 +3,88 @@
 @font-face 
 {
 	font-family: Bariol_Bold;
-	src: url(/fonts/Bariol_Bold.otf) format("opentype");
+	src: url(fonts/Bariol_Bold.otf) format("opentype");
 }
 
 @font-face 
 {
 	font-family: Bariol_Light;
-	src: url(/fonts/Bariol_Light.otf) format("opentype");
+	src: url(fonts/Bariol_Light.otf) format("opentype");
 }
 
 @font-face 
 {
 	font-family: Bariol_Thin;
-	src: url(/fonts/Bariol_Thin.otf) format("opentype");
+	src: url(fonts/Bariol_Thin.otf) format("opentype");
 }
 
 @font-face 
 {
 	font-family: Bariol_Bold_Italic;
-	src: url(/fonts/Bariol_Bold_Italic.otf) format("opentype");
+	src: url(fonts/Bariol_Bold_Italic.otf) format("opentype");
 }
 
 @font-face 
 {
 	font-family: Bariol_Light_Italic;
-	src: url(/fonts/Bariol_Light_Italic.otf) format("opentype");
+	src: url(fonts/Bariol_Light_Italic.otf) format("opentype");
 }
 
 @font-face 
 {
 	font-family: Bariol_Thin_Italic;
-	src: url(/fonts/Bariol_Thin_Italic.otf) format("opentype");
+	src: url(fonts/Bariol_Thin_Italic.otf) format("opentype");
 }
 
-p {
+
+.navbar {
 	
 	font-family: Bariol_Light;
+	font-size: 37px;
+	color: #ae1718;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	line-height: 60px;
+	background-color: blue;
+}
+
+
+
+.navbar .about{
+	
+	position: fixed;
+	left: 5%;
+}
+
+.navbar .resume {
+	
+	position: fixed;
+	left: 20%;
+
+}
+
+.navbar .home {
+	
+	position: fixed;
+	color: #ae1718;
+	left: 30%;
+}
+
+.navbar .projects {
+	
+	position: fixed;
+	left: 50%;
+}
+
+.navbar .league {
+	
+	position: fixed;
+	left: 65%;
 }
 
 body
 {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-top: 30px;
-	width: 928px;
-	background-color: #252525;
-	font-family: Bariol_Bold;
+	background-color: gray;
 }
