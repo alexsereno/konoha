@@ -36,55 +36,206 @@
 	src: url(fonts/Bariol_Thin_Italic.otf) format("opentype");
 }
 
-
-.navbar {
-	
-	font-family: Bariol_Light;
-	font-size: 37px;
-	color: #ae1718;
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	line-height: 60px;
-	background-color: blue;
-}
-
-
-
-.navbar .about{
-	
-	position: fixed;
-	left: 5%;
-}
-
-.navbar .resume {
-	
-	position: fixed;
-	left: 20%;
-
-}
-
-.navbar .home {
-	
-	position: fixed;
-	color: #ae1718;
-	left: 30%;
-}
-
-.navbar .projects {
-	
-	position: fixed;
-	left: 50%;
-}
-
-.navbar .league {
-	
-	position: fixed;
-	left: 65%;
-}
-
-body
-{
+html, body {
+	min-width: 900px;
+	max-width: 1250px;
 	background-color: gray;
+}
+
+@media (max-width: 1002px) {
+	.navbar {
+	
+		font-family: Bariol_Light;
+		font-size: 2.5em;
+		color: #ae1718;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 55px;
+		line-height: 55px;
+		background-color: white;
+	
+	}
+
+	.navbar_about {
+	
+		display: inline;
+		position: absolute;
+		left: 9.25%;
+	}
+
+	.navbar_resume {
+	
+		display: inline;
+		position: absolute;
+		left: 24%;
+	
+	}
+
+
+	.navbar_home {
+	
+		display: inline;
+		position: absolute;
+		left: 41.73%;
+	
+	}
+
+	.navbar_projects {
+	
+		display: inline;
+		position: absolute;
+		left: 58.75%;
+	
+	}
+
+	.navbar_lol {
+	
+		display: inline;
+		position: absolute;
+		right: 9.25%;
+	
+	}
+
+	.navbar_content
+	{
+		position: relative;
+		top: -40px;
+	    list-style-type: none;
+		height: 55px;
+		min-width: 800px;
+	}
+}
+
+@media (min-width: 1002px) and (max-width: 1194px) {
+	.navbar {
+	
+		font-family: Bariol_Light;
+		font-size: 2.5em;
+		color: #ae1718;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 55px;
+		line-height: 55px;
+		background-color: white;
+	
+	}
+
+	.navbar_about {
+	
+		display: inline;
+		position: absolute;
+		left: 9.25%;
+	}
+
+	.navbar_resume {
+	
+		display: inline;
+		position: absolute;
+		left: 25%;
+	
+	}
+
+
+	.navbar_home {
+	
+		display: inline;
+		position: absolute;
+		left: 45.73%;
+	
+	}
+
+	.navbar_projects {
+	
+		display: inline;
+		position: absolute;
+		left: 64.75%;
+	
+	}
+
+	.navbar_lol {
+	
+		display: inline;
+		position: absolute;
+		right: 9.25%;
+	
+	}
+
+	.navbar_content
+	{
+		position: relative;
+		top: -40px;
+	    list-style-type: none;
+		height: 55px;
+/*		min-width: 900px;
+*/	}
+}
+
+@media (min-width: 1194px) {
+	.navbar {
+	
+		font-family: Bariol_Light;
+		font-size: 2.5em;
+		color: #ae1718;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 55px;
+		line-height: 55px;
+		background-color: white;
+	
+	}
+
+	.navbar_about {
+	
+		display: inline;
+		position: absolute;
+		left: 9.25%;
+	}
+
+	.navbar_resume {
+	
+		display: inline;
+		position: absolute;
+		left: 27%;
+	
+	}
+
+
+	.navbar_home {
+	
+		display: inline;
+		position: absolute;
+		left: 46.73%;
+	
+	}
+
+	.navbar_projects {
+	
+		display: inline;
+		position: absolute;
+		left: 65.75%;
+	
+	}
+
+	.navbar_lol {
+	
+		display: inline;
+		position: absolute;
+		right: 9.25%;
+	
+	}
+
+	.navbar_content
+	{
+		position: relative;
+		top: -40px;
+	    list-style-type: none;
+		height: 55px;
+/*		min-width: 1194px;
+*/	}
 }
