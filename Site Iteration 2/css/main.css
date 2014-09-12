@@ -6,11 +6,6 @@ textarea {
     color: #222;
 }
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 /*
  * A better looking default horizontal rule
  */
@@ -103,12 +98,15 @@ main {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+	
 }
+
+
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.png')}
+#slide-1 .bcg {background-color: #009689; }
 
 /* Slide 2 */
-#slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
+#slide-2 .bcg {background: none; background-color: #EA40F1; height: 310px; text-align: center}
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.png')}
@@ -119,7 +117,7 @@ main {
 .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 30%; left: 0; width: 100%; text-align: center;}
 
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.png')}
+#slide-4 .bcg {background-image:url('../img/bcg_slide-old.png')}
 
 .hsContainer {
 	display: table;
@@ -145,6 +143,7 @@ main {
 		font-size: 45px;
 		line-height: 48px;
 		margin-bottom: 12px;
+		font-weight: 100;
 	}
 	.hsContent p {
 		width: 400px;
